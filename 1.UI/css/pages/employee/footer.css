@@ -1,0 +1,61 @@
+.footer {
+    position: relative;
+    background-color: #e5e5e5;
+    height: 56px;
+    width: 474px;
+    top: 709px;
+    left: 164px;
+}
+
+.footer .save {
+    margin-top: 8px;
+    margin-right: 16px;
+    border-radius: 4px;
+    float: right;
+    background-color: darkgreen;
+    height: 40px;
+    min-width: 75px;
+    cursor: pointer;
+}
+
+.footer .save .icon {
+    float: right;
+    margin-top: 14px;
+    height: 12px;
+    width: 12px;
+    background-image: url('../../../content/icon/save.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer .save .text {
+    color: white;
+    float: right;
+    font-size: 11px;
+    margin-right: 16px;
+    line-height: 40px;
+    margin-left: 8px;
+}
+
+.footer .cancel {
+    border-radius: 4px;
+    margin-top: 8px;
+    height: 40px;
+    width: 75px;
+    float: right;
+    font-size: 11px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.footer .cancel .text {
+    float: right;
+    font-size: 11px;
+    margin-right: 28px;
+    line-height: 40px;
+    margin-left: 8px;
+}
+
+.footer .cancel:hover {
+    background-color: #bbbbbb;
+}

@@ -1,0 +1,24 @@
+@import url('../employee/header.css');
+@import url('../employee/avatar.css');
+@import url('../employee/content.css');
+@import url('../employee/footer.css');
+body {
+    font-family: MISAGoogleSans;
+    font-size: 13px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: MISAGoogleSans;
+    src: url('../../../content/font/GoogleSans-Regular.otf');
+}
+
+@font-face {
+    font-family: MISAGoogleSans-Bold;
+    src: url('../../../content/font/GoogleSans-Bold.otf');
+}
+
+@font-face {
+    font-family: MISAGoogleSans-Italic;
+    src: url('../../../content/font/GoogleSans-Italic.otf');
+}
